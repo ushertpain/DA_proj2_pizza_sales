@@ -1,4 +1,22 @@
-### DATA VISUALIZATION 
+# Pizza Sales Analysis
+<a href="#"><img src="pizza picture.png" width="550" height="375" alt="descriptive text" /></a>
+<br />
+### Introduction
+Who doesn't love pizza? I embarked on this project fueled by my passion for pizza, alongside the opportunity to apply my skills in SQL and Tableau. The dataset I discovered on Kaggle was already clean, with data organized into various tables with corresponding primary keys. My next step involves transferring this data into PostgreSQL. After addressing some initial inquiries through SQL queries, I will extract the necessary data for visualization in Tableau.
+
+In this project, I will adhere to the Data Analyst process, which entails the following steps:
+
+1. ***Asking the question***
+2. ***Getting the data***
+3. ***Investigating the data***
+4. ***Preparing the data***
+5. ***Analyzing the data***
+6. ***Presenting the results***
+
+### Asking the question
+
+### Getting the data
+Check the [Dataset here.](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales)
 In these steps, I will create some pivot tables and an interactive dashboard. This process is inspired by a YouTuber named Mo Chen. You can watch the video by clicking the image below.
 <br />
 <div align="left"> 
