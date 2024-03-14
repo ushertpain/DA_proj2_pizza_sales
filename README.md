@@ -15,9 +15,19 @@ In this project, I will adhere to the Data Analyst process, which entails the fo
 
 ### Asking the question
 Here are some question I am interested with:
-1. 
+1. Are there any anomalies within the total sales per month?
+2. Which category (e.g., Chicken, Vegetarian) and size have the highest number of pizzas sold?
+3. What are the top 10 and bottom 10 pizzas in terms of sales?
+4. How does the total sales performance vary over time?
+5. Which days of the month have the highest total sales?
+6. Can we track the total sales, total pizzas sold, and average price per pizza?
+
 ### Getting the data
-Check the [Dataset here.](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales)
+Since we already have questions to be answered using the data, we will now download the dataset from Kaggle. Here is the [link.](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales).
+
+### Investigating the data
+As I investigate, it becomes evident that the dataset has been granularized into multiple tables. This makes the SQL approach advantageous, as we can import this data into the database since it is already cleaned.
+
 In these steps, I will create some pivot tables and an interactive dashboard. This process is inspired by a YouTuber named Mo Chen. You can watch the video by clicking the image below.
 <br />
 <div align="left"> 
