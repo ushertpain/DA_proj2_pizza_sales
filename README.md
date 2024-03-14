@@ -73,7 +73,7 @@ Now, we will import the data into our tables in the database. In the Object Expl
 <br />
 
 ### Analyzing the data
-In this phase, I will address all questions using PostgreSQL queries and Tableau. To answer question number one, I will click on project2_DB in PostgreSQL in the Object Explorer, then right-click and select Query Tool. I will then create a temporary table using the query image below:
+In this phase, I will address all questions using PostgreSQL queries and Tableau. To answer question number one "Are there any anomalies within the total sales per month?", I will click on project2_DB in PostgreSQL in the Object Explorer, then right-click and select Query Tool. I will then create a temporary table using the query image below:
 <br />
 <a href="#"><img src="query to make temp table.png" width="650" height="300" alt="descriptive text" /></a>
 <br />
@@ -94,6 +94,17 @@ As observed from the graph, there are no significant peaks evident. This suggest
 <span style="color: rgba(0, 0, 0, 0.2);">Generating the graph</span>
 <br />
 <br />
+To answer question number two, "Which category (e.g., Chicken, Vegetarian) and size have the highest number of pizzas sold?", I will execute the following query:<br />
+***SELECT * FROM req_pizza_analysis*** <br />
+Then, I will download the result so I can connect with it in Tableau Public.Since its a CSV file, in Tableu Public, I click Text file and navigate the file I have download from PostgreSQL. I click Sheet 1, drag Category to Columns, and Size to Rows.
+
+
+
+
+
+
+
+
 
 
 In these steps, I will create some pivot tables and an interactive dashboard. This process is inspired by a YouTuber named Mo Chen. You can watch the video by clicking the image below.
