@@ -118,5 +118,25 @@ As we can observe here, the darker the color, the higher the number of pizzas be
 <span style="color: rgba(0, 0, 0, 0.2);">Heatmap category and size</span>
 <br />
 <br />
+To address the third question, "What are the top 10 and bottom 10 pizzas in terms of sales?", I will create two additional sheets named Top10 and Bottom10. In the Top10 sheet, I will drag Quantity to Columns and Name to Rows. This will display all pizza names and their total quantity sold. To show only the top 10, I will right-click the Name field in Rows, then select Filter, click on Top, choose By field, and select Quantity with Sum aggregation. After setting it to display the top 10, I'll click OK.
 
+To enlarge the bars, I will switch from the standard view to the entire view. I'll customize the color by holding down ctrl and dragging the SUM(Quantity). Personally, I prefer green, so I will change it to green. Above the bars, there will be icon that allow changing the order. In my case, I want it to be in descending order.
 
+From the result, it will be evident which pizzas are in the top 10, with 'The Classic Deluxe Pizza' being the most popular, having sold 2,453 units so far.
+<br />
+<a href="#"><img src="Top10.png" width="900" height="450" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Top 10</span>
+<br />
+<br />
+For the Bottom 10, I will follow the same steps in the Bottom10 Sheet. However, in the Name filter under the By fields, I will change Top to Bottom, and then click OK. It is much faster to duplicate the Top10 Sheet, rename it, and then edit the filters to show the Bottom 10.
+
+Regarding the order, in this case, I will set it to ascend so that the pizzas with the lowest sales appear at the top.
+
+Now, we can clearly observe the bottom 10, with the lowest score going to 'The Brie Carre Pizza', having sold only 490 units.
+<br />
+<a href="#"><img src="bottom10.png" width="900" height="450" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Bottom 10</span>
+<br />
+<br />
