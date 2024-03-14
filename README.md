@@ -72,12 +72,28 @@ Now, we will import the data into our tables in the database. In the Object Expl
 <br />
 <br />
 
-
-
-
-
-
-
+### Analyzing the data
+In this phase, I will address all questions using PostgreSQL queries and Tableau. To answer question number one, I will click on project2_DB in PostgreSQL in the Object Explorer, then right-click and select Query Tool. I will then create a temporary table using the query image below:
+<br />
+<a href="#"><img src="query to make temp table.png" width="650" height="300" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Creating temp table</span>
+<br />
+<br />
+After that, I will use the query provided in the image below. Then, I will click on the Graph Visualiser icon in the Data Output. In the Graph Visualiser, I will set Month on the X-axis and monthly_revenue on the Y-axis. Then, I will click Generate.
+<br />
+<a href="#"><img src="graph_visual 1.png" width="650" height="300" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Query monthly total revenue</span>
+<br />
+<br />
+As observed from the graph, there are no significant peaks evident. This suggests that there are no anomalies in the monthly revenue data.
+<br />
+<a href="#"><img src="graph_visual 2.png" width="900" height="450" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Generating the graph</span>
+<br />
+<br />
 
 
 In these steps, I will create some pivot tables and an interactive dashboard. This process is inspired by a YouTuber named Mo Chen. You can watch the video by clicking the image below.
