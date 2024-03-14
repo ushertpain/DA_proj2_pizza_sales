@@ -56,7 +56,21 @@ Similarly, I applied the same logic to establish a one-to-many relationship betw
 <br />
 <span style="color: rgba(0, 0, 0, 0.2);">Table connection</span>
 <br />
-
+<br />
+This time, we need to generate the SQL code to create the tables in our project2_DB. In the PGERD working sheet, we click on the Generate SQL icon. This action automatically creates a new working tab in pgAdmin 4. Then, we hit F5, navigate to the Object Explorer, and expand project2_DB. After expanding the Schema and Tables, we can see that our tables have now been created.
+<br />
+<a href="#"><img src="table created.png" width="699" height="400" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Tables created</span>
+<br />
+<br />
+Now, we will import the data into our tables in the database. In the Object Explorer, we click on the table, then select import and choose the file we're going to import. Since only the orders table and pizza_types have no foreign key, we can import this data first into their appropriate table. After that, we can import the pizzas table since it references the order_details table. Lastly, we can import the order_details data. It can be observed in the image below that when I first import the order_details data, it causes an error.
+<br />
+<a href="#"><img src="processes in importing data.png" width="900" height="250" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Importing processes</span>
+<br />
+<br />
 
 
 
