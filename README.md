@@ -140,3 +140,14 @@ Now, we can clearly observe the bottom 10, with the lowest score going to 'The B
 <span style="color: rgba(0, 0, 0, 0.2);">Bottom 10</span>
 <br />
 <br />
+
+To answer question number four, "How does the total sales performance vary over time?", I will add another sheet and name it LineChart. I will change the title to Daily Total Sales. The first step is to add the Date to the Columns. Then, I will click the down arrow and change the Year to Day with the 'Month day, year' style.
+
+Next, I will add 'SUM(Revenue)' to Rows. As we can observe, in the daily performance of sales, there are some high peaks and low peaks. The highest peak occurs on November 27, 2015, with a total sales of $4,422, while the lowest peak is on March 22, 2015, with a total sales of $1,259.
+<br />
+<br />
+<a href="#"><img src="alltimedailysales.png" width="1500" height="700" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">All time daily sales</span>
+<br />
+<br />
