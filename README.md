@@ -1,5 +1,5 @@
 # Pizza Sales Analysis
-<a href="#"><img src="pizza picture.png" width="550" height="375" alt="descriptive text" /></a>
+<a href="#"><img src="pizzaaaa.png" width="550" height="375" alt="descriptive text" /></a>
 <br />
 ### Introduction
 Who doesn't love pizza? I embarked on this project fueled by my passion for pizza, alongside the opportunity to apply my skills in SQL and Tableau. The dataset I discovered on Kaggle was already clean, with data organized into various tables with corresponding primary keys. My next step involves transferring this data into PostgreSQL. After addressing some initial inquiries through SQL queries, I will extract the necessary data for visualization in Tableau.
@@ -14,7 +14,8 @@ In this project, I will adhere to the Data Analyst process, which entails the fo
 6. ***Presenting the results***
 
 ### Asking the question
-
+Here are some question I am interested with:
+1. 
 ### Getting the data
 Check the [Dataset here.](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales)
 In these steps, I will create some pivot tables and an interactive dashboard. This process is inspired by a YouTuber named Mo Chen. You can watch the video by clicking the image below.
