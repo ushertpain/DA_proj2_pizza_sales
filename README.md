@@ -19,7 +19,7 @@ Here are some question I am interested with:
 2. Which category (e.g., Chicken, Vegetarian) and size have the highest number of pizzas sold?
 3. What are the top 10 and bottom 10 pizzas in terms of sales?
 4. How does the total sales performance vary over time?
-5. Which days of the Month have the highest total sales?
+5. Which days of the month have the highest total sales?
 6. Can we track the total sales, total pizzas sold, and average price per pizza?
 
 ### Getting the data
@@ -152,7 +152,7 @@ Next, I will add 'SUM(Revenue)' to Rows. As we can observe, in the daily perform
 <br />
 <br />
 
-To address the question number five "Which days of the Month have the highest total sales?", I will create a new sheet. In this sheet, I will drag the field Date to both Columns and Rows. In the Column Date, I will change it from Year to Weekday. Then, for the Rows Date, I will change Year to Week. I'll achieve this by navigating to More, then clicking Custom, and choosing Week numbers, leaving it as Date Part.
+To address the question number five "Which days of the month have the highest total sales?", I will create a new sheet. In this sheet, I will drag the field Date to both Columns and Rows. In the Column Date, I will change it from Year to Weekday. Then, for the Rows Date, I will change Year to Week. I'll achieve this by navigating to More, then clicking Custom, and choosing Week numbers, leaving it as Date Part.
 
 After doing this, I will add a Filters box with Date, and select a specific month, for example, January, then click OK. To display the heatmap color in my calendar-like visualization, I will drag SUM(Revenue) to Marks Color. Additionally, to add numbers to my calendar heatmap, I will add Date, setting it to DAY, to the Marks Text. Since I want it in a color box format, I will change the mark type from Automatic to Square. Then, I will customize the color to green.
 
