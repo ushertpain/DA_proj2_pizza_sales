@@ -156,4 +156,10 @@ To address the question number five "Which days of the month have the highest to
 
 After doing this, I will add a Filters box with Date, and select a specific month, for example, January, then click OK. To display the heatmap color in my calendar-like visualization, I will drag SUM(Revenue) to Marks Color. Additionally, to add numbers to my calendar heatmap, I will add Date, setting it to DAY, to the Marks Text. Since I want it in a color box format, I will change the mark type from Automatic to Square. Then, I will customize the color to green.
 
-With this setup, I can visually observe that the darker the color, the higher the total sales for that day of the month. For example, in this visual, I can directly see that January 8, 2015, has the highest sales for that month. By adjusting the filter, I can observe all the days with the highest sales for each month. Here are the results: February 7, March 17, April 24, May 15, June 1, July 4, August 14, September 4, October 15, November 27, and December 31.
+With this setup, I can visually observe that the darker the color, the higher the total sales for that day of the month. For example, in this visual, I can directly see that January 8, 2015, has the highest sales for that month. By adjusting the filter, I can observe all the days with the highest sales for each month. Here are the results: February 7, March 17, April 24, May 15, June 1, July 4, August 14, September 4, October 15, November 27, and December 31. 
+<br />
+<a href="#"><img src="calendar.png" width="900" height="400" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Calendar heatmap</span>
+<br />
+<br />
