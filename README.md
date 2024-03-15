@@ -151,3 +151,9 @@ Next, I will add 'SUM(Revenue)' to Rows. As we can observe, in the daily perform
 <span style="color: rgba(0, 0, 0, 0.2);">All time daily sales</span>
 <br />
 <br />
+
+To address the question "Which days of the month have the highest total sales?", I will create a new sheet. In this sheet, I will drag the field Date to both Columns and Rows. In the Column Date, I will change it from Year to Weekday. Then, for the Rows Date, I will change Year to Week. I'll achieve this by navigating to More, then clicking Custom, and choosing Week numbers, leaving it as Date Part.
+
+After doing this, I will add a Filters box with Date, and select a specific month, for example, January, then click OK. To display the heatmap color in my calendar-like visualization, I will drag SUM(Revenue) to Marks Color. Additionally, to add numbers to my calendar heatmap, I will add Date, setting it to DAY, to the Marks Text. Since I want it in a color box format, I will change the mark type from Automatic to Square. Then, I will customize the color to green.
+
+With this setup, I can visually observe that the darker the color, the higher the total sales for that day of the month. For example, in this visual, I can directly see that January 8, 2015, has the highest sales for that month. By adjusting the filter, I can observe all the days with the highest sales for each month. Here are the results: February 7, March 17, April 24, May 15, June 1, July 4, August 14, September 4, October 15, November 27, and December 31.
