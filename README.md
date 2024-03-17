@@ -163,3 +163,38 @@ With this setup, I can visually observe that the darker the color, the higher th
 <span style="color: rgba(0, 0, 0, 0.2);">Calendar heatmap</span>
 <br />
 <br />
+To address question number 6, "Can we track the total sales, total pizzas sold, and average price per pizza?", I will create three new sheets in Tableau Public, namely: BanSales, BanAvg.PizzaPrice, and TotalPizzaSold.
+
+On the BanSales sheet, I will drag Revenue to Marks Text. To make the size of the number larger, I will click on Text in the Marks box, then click the three dots. Once it opens, I can change the font size. For example, I will change it to 24 Bold. On the next line, I will add "Total Sales" and adjust its font size to 9.
+<br />
+<a href="#"><img src="totalSalesbans1.png" width="750" height="225" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Creating total sales bans</span>
+<br />
+<br />
+I want to add shapes behind my BANs. To do this, I will change Automatic from the Marks box to Shapes. Using Ctrl and the arrow keys, I will adjust the size of the shape to make it bigger. Next, I want to center the number within the shape. To achieve this, I will click on Label in the Marks box, then select alignment, and choose center alignment for all.
+
+To change the shape, I will click on Shape in the Marks box, then select More Shapes. Since I have already downloaded some icons, I will change the default to the specific folder where I saved the icons. After selecting the desired icon, I will click OK.
+
+To make my BANs more noticeable, I will click on Color in Marks and adjust the Opacity to around 50%.
+<br />
+<a href="#"><img src="totalSalesbans2.png" width="500" height="200" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Shapes into bans</span>
+<br />
+<br />
+The same editing logic applies to the other BANs sheets. For the BanAvg.PizzaPrice sheet, instead of Revenue in Marks Label, I will use AVG(Price). Similarly, for the TotalPizzaSold sheet, I will select SUM(Quantity) in the Marks Label.
+<br />
+<a href="#"><img src="avgpizzabans.png" width="500" height="200" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Average pizza price BANs</span>
+<br />
+<br />
+<a href="#"><img src="totalpizzabans.png" width="500" height="200" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Total pizza sold BANs</span>
+<br />
+<br />
+These BANs will dynamically track every time I use filters. In the next phase, presenting the results of the Data Analyst Process, this question will be clearly answered.
+
+### Presenting the results
