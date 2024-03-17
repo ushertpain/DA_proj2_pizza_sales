@@ -208,7 +208,7 @@ Now it's time to present my results by creating a dashboard. The creation of thi
 <br />
 
 You may check my dashboard here: [Tableau Link](https://public.tableau.com/app/profile/virfrance.gabas/viz/2ndProj/PizzaDashBoard).
-As you can see, my filters are the Calendar, Size, and Category. You can select a month to check daily sales performance based on revenue sales, a heatmap that visualizes which pizza category and size are most sold in that particular month, a calendar heatmap visualizing every day of the month with respect to its total revenue, BANs representing Total Sales, Total Pizza Sold, and Average Pizza Price for the selected month from the filters, and the Distribution of Pizza Prices, which visualizes the mean price of the pizza. Below are the top 10 and bottom 10 pizzas in that particular month.
+As you can see, my filters are the Month, Calendar, Size, and Category. You can select a month to check daily sales performance based on revenue sales, a heatmap that visualizes which pizza category and size are most sold in that particular month, a calendar heatmap visualizing every day of the month with respect to its total revenue, BANs representing Total Sales, Total Pizza Sold, and Average Pizza Price for the selected month from the filters, and the Distribution of Pizza Prices, which visualizes the mean price of the pizza. Below are the top 10 and bottom 10 pizzas in that particular month.
 
 
 The Calendar filter can filter every chart and BANs in the dashboard except for the Daily Total Sales. I achieved this by referencing Mo Chen's video. To implement this, I clicked on the Dashboard tab, then navigated to Actions. In the Actions box, I checked Filter where the Source is my Calendar, then edited it, and unchecked my Line Chart before hitting OK. Now, you can filter by clicking on one number in the calendar or more. Additionally, you can press Ctrl to add more days you want as a filter.
@@ -223,3 +223,18 @@ The Select Size and Select Category filters affect all the charts and BANs, as w
 All these filters track the total sales, total pizzas sold, and average price of the pizza, which addresses question number six: 'Can we track the total sales, total pizzas sold, and average price per pizza?'
 
 ### Conclusion
+Based on the analysis conducted using PostgreSQL and Tableau, several key insights have been uncovered:
+
+1. Monthly revenue data does not exhibit any significant anomalies, indicating stability in sales performance over time.
+
+2. The highest-selling pizza in the dataset belongs to the Classic category, with a Small size, totaling 6,139 units sold and generating $69,870 in revenue.
+
+3. 'The Classic Deluxe Pizza' emerges as the most popular pizza, with 2,453 units sold, highlighting its strong demand among customers.
+
+4. Conversely, 'The Brie Carre Pizza' ranks as the least popular option, with only 490 units sold.
+
+5. Daily sales performance demonstrates fluctuations, with notable peaks and troughs. For instance, the highest peak occurred on November 27, 2015, reaching a total sales figure of $4,422, while the lowest peak was recorded on March 22, 2015, with total sales of $1,259.
+
+6. Additionally, specific days of each month consistently exhibit the highest sales performance. Notable examples include January 8, February 7, March 17, April 24, May 15, June 1, July 4, August 14, September 4, October 15, November 27, and December 31.
+
+In conclusion, the creation of BANs and the use of dynamic filters in the Tableau dashboard have enabled effective tracking of total pizzas sold and average pizza prices. These tools have facilitated a comprehensive understanding of sales trends and performance metrics, providing valuable insights for informed decision-making.
