@@ -198,3 +198,11 @@ The same editing logic applies to the other BANs sheets. For the BanAvg.PizzaPri
 These BANs will dynamically track every time I use filters. In the next phase, presenting the results of the Data Analyst Process, this question will be clearly answered.
 
 ### Presenting the results
+Now it's time to present my results by creating a dashboard. The creation of this dashboard is influenced by Mo Chen. You may watch his video by clicking the image below.
+<br />
+<div align="left"> 
+      <a href="https://youtu.be/CmOAXW24y2Y?t=1198">
+         <img src="https://i.ytimg.com/vi/CmOAXW24y2Y/0.jpg" style="width:25% height:25%;">
+      </a>
+</div>
+<br />
