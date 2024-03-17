@@ -23,7 +23,7 @@ Here are some question I am interested with:
 6. Can we track the total sales, total pizzas sold, and average price per pizza?
 
 ### Getting the data
-Since we already have questions to be answered using the data, we will now download the dataset from Kaggle. Here is the [link.](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales).
+Since we already have questions to be answered using the data, we will now download the dataset from Kaggle. Here is the [link.](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales)
 
 ### Investigating the data
 As I investigate, it becomes evident that the dataset has been granularized into multiple tables. This makes the SQL approach advantageous, as we can import this data into the database since it is already cleaned. I explore all the tables, scrutinizing each value using the filter function, I did not encounter any missing or unusual values. Furthermore, I attempted to remove duplicates, but none were found. Therefore, I assume that the data is already clean. 
@@ -206,3 +206,20 @@ Now it's time to present my results by creating a dashboard. The creation of thi
       </a>
 </div>
 <br />
+
+You may check my dashboard here: [Tableau Link](https://public.tableau.com/app/profile/virfrance.gabas/viz/2ndProj/PizzaDashBoard).
+As you can see, my filters are the Calendar, Size, and Category. You can select a month to check daily sales performance based on revenue sales, a heatmap that visualizes which pizza category and size are most sold in that particular month, a calendar heatmap visualizing every day of the month with respect to its total revenue, BANs representing Total Sales, Total Pizza Sold, and Average Pizza Price for the selected month from the filters, and the Distribution of Pizza Prices, which visualizes the mean price of the pizza. Below are the top 10 and bottom 10 pizzas in that particular month.
+
+
+The Calendar filter can filter every chart and BANs in the dashboard except for the Daily Total Sales. I achieved this by referencing Mo Chen's video. To implement this, I clicked on the Dashboard tab, then navigated to Actions. In the Actions box, I checked Filter where the Source is my Calendar, then edited it, and unchecked my Line Chart before hitting OK. Now, you can filter by clicking on one number in the calendar or more. Additionally, you can press Ctrl to add more days you want as a filter.
+<br />
+<a href="#"><img src="dashboard_action_edit.png" width="900" height="400" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Calendar to not filter line chart</span>
+<br />
+<br />
+The Select Size and Select Category filters affect all the charts and BANs, as well as the Calendar.
+
+All these filters track the total sales, total pizzas sold, and average price of the pizza, which addresses question number six: 'Can we track the total sales, total pizzas sold, and average price per pizza?'
+
+### Conclusion
