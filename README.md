@@ -225,16 +225,18 @@ All these filters track the total sales, total pizzas sold, and average price of
 ### Conclusion
 Based on the analysis conducted using PostgreSQL and Tableau, several key insights have been uncovered:
 
-1. Monthly revenue data does not exhibit any significant anomalies, indicating stability in sales performance over time.
+- Monthly revenue data does not exhibit any significant anomalies, indicating stability in sales performance over time.
 
-2. The highest-selling pizza in the dataset belongs to the Classic category, with a Small size, totaling 6,139 units sold and generating $69,870 in revenue.
+- The highest-selling pizza in the dataset belongs to the Classic category, with a Small size, totaling 6,139 units sold and generating $69,870 in revenue.
 
-3. 'The Classic Deluxe Pizza' emerges as the most popular pizza, with 2,453 units sold, highlighting its strong demand among customers.
+- 'The Classic Deluxe Pizza' emerges as the most popular pizza, with 2,453 units sold, highlighting its strong demand among customers.
 
-4. Conversely, 'The Brie Carre Pizza' ranks as the least popular option, with only 490 units sold.
+- Conversely, 'The Brie Carre Pizza' ranks as the least popular option, with only 490 units sold.
 
-5. Daily sales performance demonstrates fluctuations, with notable peaks and troughs. For instance, the highest peak occurred on November 27, 2015, reaching a total sales figure of $4,422, while the lowest peak was recorded on March 22, 2015, with total sales of $1,259.
+- Daily sales performance demonstrates fluctuations, with notable peaks and troughs. For instance, the highest peak occurred on November 27, 2015, reaching a total sales figure of $4,422, while the lowest peak was recorded on March 22, 2015, with total sales of $1,259.
 
-6. Additionally, specific days of each month consistently exhibit the highest sales performance. Notable examples include January 8, February 7, March 17, April 24, May 15, June 1, July 4, August 14, September 4, October 15, November 27, and December 31.
+- Additionally, specific days of each month consistently exhibit the highest sales performance. Notable examples include January 8, February 7, March 17, April 24, May 15, June 1, July 4, August 14, September 4, October 15, November 27, and December 31.
 
 In conclusion, the creation of BANs and the use of dynamic filters in the Tableau dashboard have enabled effective tracking of total pizzas sold and average pizza prices. These tools have facilitated a comprehensive understanding of sales trends and performance metrics, providing valuable insights for informed decision-making.
+
+Thank you for reviewing the data analysis. Have a pleasant day!
