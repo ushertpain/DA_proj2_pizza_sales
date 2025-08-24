@@ -235,7 +235,7 @@ Based on the analysis conducted using PostgreSQL and Tableau, several key insigh
 
 - Daily sales performance demonstrates fluctuations, with notable peaks and troughs. For instance, the highest peak occurred on November 27, 2015, reaching a total sales figure of $4,422, while the lowest peak was recorded on March 22, 2015, with total sales of $1,259.
 
-- Additionally, specific days of each month consistently exhibit the highest sales performance. Notable examples include January 8, February 7, March 17, April 24, May 15, June 1, July 4, August 14, September 4, October 15, November 27, and December 31.
+- Additionally, specific days of each month consistently exhibit the highest sales performance. Notable examples include January 8, February 1, March 17, April 24, May 15, June 1, July 4, August 14, September 4, October 15, November 27, and December 31.
 
 In conclusion, the creation of BANs and the use of dynamic filters in the Tableau dashboard have enabled effective tracking of total pizzas sold and average pizza prices. These tools have facilitated a comprehensive understanding of sales trends and performance metrics, providing valuable insights for informed decision-making.
 
